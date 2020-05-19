@@ -1,6 +1,6 @@
 {
   "name": "npm-rc4",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A list of useful rc4 and base64 functions.",
   "main": "index.js",
   "scripts": {
