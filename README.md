@@ -53,7 +53,6 @@ console.log(
 	)
 
 );
-
 // => this text is decrypted and decoded with base64
 
 console.log(
