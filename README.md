@@ -1,6 +1,8 @@
 # npm-rc4
 
-A list of useful `rc4` and `base64` functions.
+[![NPM version](https://img.shields.io/npm/v/npm-rc4.svg?style=flat)](https://www.npmjs.com/package/npm-rc4)
+
+A list of useful `rc4` and `base64` functions for [Node.js](https://nodejs.org) and Browser.
 
 ![npm-rc4](https://user-images.githubusercontent.com/6490641/82446373-7401b280-9a9e-11ea-835b-7f6a75c55f65.gif "npm-rc4")
 
