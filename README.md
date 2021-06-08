@@ -2,7 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/npm-rc4.svg?style=flat)](https://www.npmjs.com/package/npm-rc4)
 
-A list of useful `rc4` and `base64` functions for [Node.js](https://nodejs.org) and Browser.
+A list of useful `rc4` and `base64` functions for [Node.js](https://nodejs.org) and Browser.\
+Differently from the previous version, it doesn't use `atob()` and `btoa()`; this guarantee a proper base64 conversion between different languages like PHP with `base64_encode` and `base64_decode`.
 
 ![npm-rc4](https://user-images.githubusercontent.com/6490641/82446373-7401b280-9a9e-11ea-835b-7f6a75c55f65.gif "npm-rc4")
 
@@ -17,13 +18,29 @@ $ npm install npm-rc4
 ## Node.js
 
 ```js
-const { rc4, rc4Base64Encrypt, rc4Base64Decrypt, rc4Base64, isBase64, base64encode, base64decode } = require('npm-rc4');
+const {
+	rc4,
+	rc4Base64Encrypt,
+	rc4Base64Decrypt,
+	rc4Base64,
+	isBase64,
+	base64encode, 
+	base64decode
+} = require('npm-rc4');
 ```
 
 ## ES6
 
 ```js
-import { rc4, rc4Base64Encrypt, rc4Base64Decrypt, rc4Base64, isBase64, base64encode, base64decode } from 'npm-rc4';
+import {
+	rc4,
+	rc4Base64Encrypt,
+	rc4Base64Decrypt,
+	rc4Base64,
+	isBase64,
+	base64encode,
+	base64decode
+} from 'npm-rc4';
 ```
 
 ## Examples
