@@ -102,10 +102,10 @@ console.log(
 
 console.log(
 
-	base64decode('dGhpcyBzdHJpbmcgd2lsbCBiZSBlbmNvZGVkIHdpdGggYmFzZTY0')
+	base64decode('dGhpcyBzdHJpbmcgd2lsbCBiZSBkZWNvZGVkIHdpdGggYmFzZTY0')
 	
 );
-// => dGhpcyBzdHJpbmcgd2lsbCBiZSBlbmNvZGVkIHdpdGggYmFzZTY0
+// => this string will be decoded with base64
 
 ```
 
