@@ -207,11 +207,15 @@ function rc4Base64(str, key) {
 
 module.exports = rc4;
 module.exports = isBase64;
+module.exports = base64encode;
+module.exports = base64decode;
 module.exports = rc4Base64Encrypt;
 module.exports = rc4Base64Decrypt;
 module.exports = rc4Base64;
 module.exports.rc4 = rc4;
 module.exports.isBase64 = isBase64;
+module.exports.base64encode = base64encode;
+module.exports.base64decode = base64decode;
 module.exports.rc4Base64Encrypt = rc4Base64Encrypt;
 module.exports.rc4Base64Decrypt = rc4Base64Decrypt;
 module.exports.rc4Base64 = rc4Base64;

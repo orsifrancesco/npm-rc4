@@ -17,13 +17,13 @@ $ npm install npm-rc4
 ## Node.js
 
 ```js
-const { rc4, rc4Base64Encrypt, rc4Base64Decrypt, rc4Base64, isBase64 } = require('npm-rc4');
+const { rc4, rc4Base64Encrypt, rc4Base64Decrypt, rc4Base64, isBase64, base64encode, base64decode } = require('npm-rc4');
 ```
 
 ## ES6
 
 ```js
-import { rc4, rc4Base64Encrypt, rc4Base64Decrypt, rc4Base64, isBase64 } from 'npm-rc4';
+import { rc4, rc4Base64Encrypt, rc4Base64Decrypt, rc4Base64, isBase64, base64encode, base64decode } from 'npm-rc4';
 ```
 
 ## Examples
@@ -92,6 +92,20 @@ console.log(
 	
 );
 // => false
+
+console.log(
+
+	base64encode('this string will be encoded with base64')
+	
+);
+// => dGhpcyBzdHJpbmcgd2lsbCBiZSBlbmNvZGVkIHdpdGggYmFzZTY0
+
+console.log(
+
+	base64decode('dGhpcyBzdHJpbmcgd2lsbCBiZSBlbmNvZGVkIHdpdGggYmFzZTY0')
+	
+);
+// => dGhpcyBzdHJpbmcgd2lsbCBiZSBlbmNvZGVkIHdpdGggYmFzZTY0
 
 ```
 
